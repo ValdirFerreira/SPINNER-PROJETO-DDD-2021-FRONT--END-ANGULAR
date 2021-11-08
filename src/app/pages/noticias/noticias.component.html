@@ -1,0 +1,29 @@
+<app-navbar></app-navbar>
+
+<div class="conteudo-noticia">
+    <div class="lista-noticias">
+
+        <ng-container *ngFor="let item of noticias">
+            <div class="noticia">
+                <div class="cabecalho-noticias">
+                    <div class="data-noticia">
+                        Date {{item.dataCadastro}}
+                    </div>
+                    <div class="usuario-noticia">
+                        User: {{item.usuario}}
+                    </div>
+                </div>
+
+                <div class="titulo-noticia">
+                    {{item.titulo}}
+                </div>
+
+                <div class="texto-noticia">
+                    {{item.informacao}}
+                </div>
+
+            </div>
+        </ng-container>
+
+    </div>
+</div>

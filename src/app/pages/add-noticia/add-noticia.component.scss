@@ -1,0 +1,49 @@
+.conteudo-form {
+    width: 90%;
+    margin: auto;
+    padding-top: 80px;
+    .input,
+    .textarea-noticia {
+        background-color: #f6f6f6;
+        color: black;
+        padding: 15px 0px;
+        text-align: center;
+        font-size: 16px;
+        margin: 5px;
+        width: 90%;
+        border: 2px solid #f6f6f6;
+        border-radius: 5px;
+    }
+    .mensagem-erro {
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+}
+
+.textarea-noticia {
+    height: 400px;
+}
+
+.div-btn-add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .input-add {
+        background-color: #8f2a8b;
+        border: none;
+        color: white;
+        padding: 15px 0px;
+        margin-top: 5px;
+        text-align: center;
+        font-size: 13px;
+        box-shadow: 0 10px 30px 0 #8f2a8b;
+        border-radius: 5px;
+        width: 60%;
+        cursor: pointer;
+    }
+
+    .input-add:hover {
+        background-color: #4d154b;
+    }
+}
